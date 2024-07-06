@@ -1,8 +1,7 @@
 function Navbar(){
     return(
       <>
-      <div>
-      <img src='background.jpg'></img>
+      
         <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",border:"solid",backgroundColor:"lavender",borderRadius:"",padding:"20px"}}>
         
       <h1 style={{align:"center",fontFamily:'courier',fontSize:"40px"}}>
@@ -50,7 +49,6 @@ function Navbar(){
            onMouseLeave={(e) => e.target.style.textDecoration = 'none'}>
           Login
         </a>
-</div>
 </div>
 </div>
  </>      
